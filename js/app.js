@@ -76,7 +76,6 @@ var coolSound = false;
 function playCool () {
   coolSound = !coolSound;
   if (coolSound) {
-    //$('#theme-song')[0].pause();
     // $('#cool')[0].load()
     $('#cool')[0].play();
   }
